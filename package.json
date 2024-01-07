@@ -1,0 +1,25 @@
+{
+  "name": "playwright-qa-framework-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --trace on",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachintha00/Playwright-QA-Framework-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachintha00/Playwright-QA-Framework-Testing/issues"
+  },
+  "homepage": "https://github.com/sachintha00/Playwright-QA-Framework-Testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.6"
+  }
+}
